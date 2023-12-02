@@ -56,6 +56,17 @@ ic project description:
  AGAIN THANK YOU" and the code terminates
 
 
- When user gives input as 5, transfer fund option is selected. It askes to enter the pin number again for more authentication
- a) If the enetred pin no. is correct, it asks to enter the account number to which the user wants to transfer money. 
- b) If the enetred pin no. is incorrect, It shows "INCORRECT PIN NO TRY AGAIN" and then the code terminates
+ When user gives input as 5, transfer fund option is selected. It asks to enter the pin number again for more authentication
+ A) If the entered pin number is correct, it asks to enter the account number to which the user wants to transfer money. It asks to enter the account number 
+    again for more authentication.
+    
+    a)If both the account numbers match and if the entered account number exists, it asks to enter the amount that the user wants to transfer. It asks to 
+    enter the transaction amount again for confirmation. If the given transaction amount matches with the previously given transaction amount, The code 
+    shows the current balance of user's account after transaction and shows "AMOUNT TRANSFERRED SUCCESSFULLY". If the given transaction amount does not 
+    match with the previously given transaction amount, it shows "The amount you entered previously and now are not same TRY AGAIN" 
+    
+    b)If both the account numbers does not match, it shows "The account number you gave now is not same as before"
+    
+    c)If the entered account number does not exist, it shows "Account not found CHECK AGAIN"
+    
+ B) If the entered pin number is incorrect, It shows "INCORRECT PIN NUMBER TRY AGAIN" and then the code terminates
