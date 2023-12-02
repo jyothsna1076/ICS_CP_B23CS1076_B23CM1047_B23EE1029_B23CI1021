@@ -259,6 +259,10 @@ for(r=0;r<count1;r++)
                 }
                 }
                 }
+                else{
+                    printf("The amount you entered before and now are not same\n TRY AGAIN  ");
+                    return 0;
+                }
             }
             else{
                 printf("The account number you gave now is not same as before\nCHECK AGAIN");
@@ -266,10 +270,11 @@ for(r=0;r<count1;r++)
             }
             }
         }
-    }
-          else{
+         else{
             printf("INCORRECT PIN NO\nTRY AGAIN\n");
         }
+    }
+        
      }
      FILE *fp2;
    fp2=fopen("atm.txt","r");
