@@ -267,6 +267,9 @@ for(r=0;r<count1;r++)
             }
         }
     }
+          else{
+            printf("INCORRECT PIN NO\nTRY AGAIN\n");
+        }
      }
      FILE *fp2;
    fp2=fopen("atm.txt","r");
